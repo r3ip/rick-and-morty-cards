@@ -1,0 +1,11 @@
+<mat-card *ngIf="character">
+  <img mat-card-image [src]="character.image">
+  <mat-card-content>
+    <div fxLayout="column" fxLayoutAlign="start start">
+      <span>{{'name' | translate }}: {{character.name}}</span>
+      <span>{{'specie' | translate }}: {{character.species}}</span>
+      <span>{{'genger' | translate }}: {{character.gender}}</span>
+      <span>{{'origin' | translate }}: {{character.origin.name}}</span>
+    </div>
+  </mat-card-content>
+</mat-card>

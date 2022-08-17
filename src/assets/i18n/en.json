@@ -1,0 +1,7 @@
+{
+    "label": "Rick and Morty",
+    "name": "Name",
+    "specie" : "Species",
+    "genger": "Gender",
+    "origin": "Origin"
+}

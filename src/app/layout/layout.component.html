@@ -1,0 +1,11 @@
+<div fxLayout="row wrap" fxLayoutAlign="center center">
+  <span class="title">Rick and Morty</span>
+</div>
+
+<div class="content">
+  <div fxLayout="row wrap" fxLayoutGap="16px grid">
+    <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let character of characters">
+      <app-cards [character]="character"></app-cards>
+    </div>
+  </div>
+</div>
